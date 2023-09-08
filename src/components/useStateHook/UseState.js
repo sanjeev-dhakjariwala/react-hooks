@@ -11,7 +11,7 @@ const UseState = () => {
   };
   return (
     <div>
-      <p>{count}</p>
+      <p>Count is: {count}</p>
       <br />
       <button onClick={() => increaseButton('increase')}>Increase</button>
       <button onClick={() => increaseButton('decrease')}>Decrease</button>
