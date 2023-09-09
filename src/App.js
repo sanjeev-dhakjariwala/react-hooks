@@ -1,6 +1,7 @@
 import UseState from './components/useStateHook/UseState';
 import UseRef from './components/useRefHook/UseRef';
 import UseReducer from './components/useReducerHook/UseReducer';
+import UseEffect from './components/useEffectHook/UseEffect';
 
 import './App.css';
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <hr />
       <p>UseReducer Example</p>
       <UseReducer />
+      <hr />
+      <UseEffect />
     </div>
   );
 }
