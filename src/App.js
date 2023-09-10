@@ -5,6 +5,7 @@ import UseEffect from './components/useEffectHook/UseEffect';
 import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect';
 import ContextTutorial from './components/useContextHook/ContextTutorial';
 import UseMemo from './components/useMemoHook/UseMemo';
+import UseCallback from './components/useCallbackHook/UseCallback';
 
 import './App.css';
 function App() {
@@ -27,6 +28,9 @@ function App() {
       <hr />
       <p>UseMemo Tutorial</p>
       <UseMemo />
+      <hr />
+      <p>UseCallback Tutorial</p>
+      <UseCallback />
       <hr />
       <p>useEffect Example</p>
       <UseEffect />

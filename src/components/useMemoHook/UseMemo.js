@@ -27,9 +27,7 @@ const UseMemo = () => {
         longestName = currentName;
       }
     }
-
     console.log('THIS WAS COMPUTED');
-
     return longestName;
   };
   const getLongestName = useMemo(() => findLongestName(data), [data]);
