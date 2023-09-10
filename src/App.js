@@ -4,6 +4,7 @@ import UseReducer from './components/useReducerHook/UseReducer';
 import UseEffect from './components/useEffectHook/UseEffect';
 import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect';
 import ContextTutorial from './components/useContextHook/ContextTutorial';
+import UseMemo from './components/useMemoHook/UseMemo';
 
 import './App.css';
 function App() {
@@ -23,6 +24,9 @@ function App() {
       <hr />
       <p>ContextAPI Example</p>
       <ContextTutorial />
+      <hr />
+      <p>UseMemo Tutorial</p>
+      <UseMemo />
       <hr />
       <p>useEffect Example</p>
       <UseEffect />
